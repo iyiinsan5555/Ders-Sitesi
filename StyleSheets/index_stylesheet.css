@@ -1,0 +1,54 @@
+p, h1, h2, h3, h4, h5, h6, a {
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+
+.Center_Div {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.Info_Container {
+
+    display: inline-block;
+
+    width: auto;
+    height: 150px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+    align-content: center;
+    justify-content: center;
+
+    padding: 0 0 0 0;
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    transition: all 0.5s;
+
+}
+
+.Info_Container:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 10px;
+}
+
+.Info_Container a {
+
+    margin: 10px 10px 10px 10px;
+    padding: 0 0 0 0;
+
+    text-decoration: none;
+    color: black;
+
+}
