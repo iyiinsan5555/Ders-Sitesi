@@ -1,0 +1,64 @@
+p, h1, h2, h3, h4, h5, h6, a {
+    font-family: "Poppins", sans-serif;
+}
+
+p {
+    margin: 0 0 0 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: underline;
+}
+
+
+h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+
+
+.Tutucu-Div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+}
+
+.Deneme {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2px 2px 2px 2px;
+}
+
+
+.Netler {
+    border: 1px dashed black;
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+
+.Kazanımlar {
+    border: 1px dashed black;
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+
+.Düşüncelerim {
+    border: 1px dashed black;
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
