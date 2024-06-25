@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
         let seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
-        countdownElement.innerHTML = `${days} gün ${hours} saaat ${minutes} dakika ${seconds} saniye`;
+        countdownElement.innerHTML = `${days} gün ${hours} saat ${minutes} dakika ${seconds} saniye`;
     }
 
     setInterval(updateCountdown, 1000);
