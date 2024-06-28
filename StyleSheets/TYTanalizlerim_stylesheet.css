@@ -64,3 +64,12 @@ h4{
     padding-left: 5px;
 }
 
+
+p {
+    transition: opacity 0.5s ease;
+}
+
+/* Hover effect */
+p:hover {
+    opacity: 1;
+}
