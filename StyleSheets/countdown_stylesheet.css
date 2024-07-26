@@ -20,3 +20,40 @@ body {
     font-size: 5vw;
     color: white;
 }
+
+
+
+#okulcountdown {
+    font-size: 1.5vw;
+    color: white;
+
+    width: max-content;
+    text-align: center;
+
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
+
+
+@keyframes moveToCenter {
+    0% {
+        bottom: 0vh;
+        left: -25vw;
+    }
+    25% {
+        bottom: 0vh;
+        left: 45vw;
+    }
+    75% {
+        bottom: 0vh;
+        left: 55vw;
+    }
+    100% {
+        bottom: 0vh;
+        left: 125vw;
+    }
+}
+
+#okulcountdown {
+    animation: moveToCenter 4s ease-in-out infinite;
+}
