@@ -2,6 +2,16 @@ p, h1, h2, h3, h4, h5, h6, a {
     font-family: "Poppins", sans-serif;
 }
 
+.DarkMode {
+    background-color: #212121;
+    color: white;
+}
+
+.LightMode {
+    background-color: white;
+    color: black;
+}
+
 body {
     margin-top: 40vh;
     margin-bottom: 40vh;
@@ -77,5 +87,17 @@ p {
 
 /* Hover effect */
 p:hover {
+    opacity: 1;
+}
+
+
+#local-timer {
+    position: fixed;
+    top: 1vh;
+    right: 1vw;
+    font-size: medium;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    display: run-in;
     opacity: 1;
 }
