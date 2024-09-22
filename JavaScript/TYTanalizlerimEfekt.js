@@ -80,4 +80,4 @@ function applyLightMode() {
 //applyLightMode();
 
 // Update every minute to check for time changes
-setInterval(applyLightMode, 60000);
+//setInterval(applyLightMode, 60000);
