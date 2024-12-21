@@ -32,3 +32,4 @@ FoundElement.classList.add("Selected");
 document.getElementById("StartDay").textContent = " Başlangıç Günü: 21 Aralık 2024"
 document.getElementById("Today").textContent = "Bugün: "+today.toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' });
 document.getElementById("DifferenceInDays").textContent = "Geçen Gün: "+differenceInDays
+document.getElementById("TotalQuestion").textContent = "Çözülen Soru Sayısı: "+differenceInDays*5
