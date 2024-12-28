@@ -1,6 +1,6 @@
 // Get today's date
 const today = new Date();
-const startDate = new Date('December 21, 2024');
+const startDate = new Date('December 28, 2024');
 
 // Calculate the difference in milliseconds
 const differenceInMilliseconds = Math.abs(today - startDate);
@@ -29,7 +29,7 @@ FoundElement.classList.remove("notSelected")
 FoundElement.classList.add("Selected");
 
 
-document.getElementById("StartDay").textContent = " Başlangıç Günü: 21 Aralık 2024"
+document.getElementById("StartDay").textContent = " Başlangıç: "+startDate.toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' });
 document.getElementById("Today").textContent = "Bugün: "+today.toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' });
 document.getElementById("DifferenceInDays").textContent = "Geçen Gün: "+differenceInDays
 document.getElementById("TotalQuestion").textContent = "Çözülen Soru Sayısı: "+differenceInDays*5
