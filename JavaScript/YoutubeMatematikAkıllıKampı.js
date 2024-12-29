@@ -1,6 +1,6 @@
 // Get today's date
 const today = new Date();
-const startDate = new Date('December 28, 2024');
+const startDate = new Date('December 29, 2024');
 
 // Calculate the difference in milliseconds
 const differenceInMilliseconds = Math.abs(today - startDate);
