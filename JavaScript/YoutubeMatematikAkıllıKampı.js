@@ -10,7 +10,7 @@ console.log(Math.abs(today - startDate));
 const differenceInDays = Math.floor(differenceInMilliseconds / (1000 * 60 * 60 * 24));
 
 // Define the period
-const Period = 6;
+const Period = 7;
 
 // Create a function to calculate the remaining days
 function getRemainingDays(days) {
