@@ -32,4 +32,4 @@ FoundElement.classList.add("Selected");
 document.getElementById("StartDay").textContent = " Başlangıç: "+startDate.toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' });
 document.getElementById("Today").textContent = "Bugün: "+today.toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' });
 document.getElementById("DifferenceInDays").textContent = "Geçen Gün: "+differenceInDays
-document.getElementById("TotalQuestion").textContent = "Çözülen Soru Sayısı: "+differenceInDays*5
+document.getElementById("TotalQuestion").textContent = "Çözülen Soru Sayısı(Otomatik Sayıyor Ben 5 tane çözdüm 😊 ): "+differenceInDays*5
